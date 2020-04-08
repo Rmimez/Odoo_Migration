@@ -1,4 +1,4 @@
-# Odoo_Migration
+# Odoo_DATA_Migration
 
 This script is an example to help developer to understand of data migration from version to version.
 in this script we used xml_rpc method and that how i subbmited in my code where i migrate from my data in localhost to a demo given by odoo site to try understanding .
