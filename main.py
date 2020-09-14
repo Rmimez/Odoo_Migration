@@ -12,7 +12,7 @@ print('uid_source...',uid_source)
 
 #destination as example is  a demo got given from odoo web site 
 info_dest = xmlrpc.client.ServerProxy('https://demo5.odoo.com/start').start()
-url_dest, db_dest, username_dest, password_dest ='https://rmzi.odoo.com/web', 'rmzi', username, 'IMEhcah@fa++'
+url_dest, db_dest, username_dest, password_dest ='https://rmzi.odoo.com/web', 'rmzi', username, yourpassword
 common_dest = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url_dest))
 uid_dest = common_dest.authenticate(db_dest, username_dest, password_dest, {})
 print('uid_dest...',uid_dest)
